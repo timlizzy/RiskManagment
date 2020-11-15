@@ -1,5 +1,7 @@
 # Project configuration
 general:
+    projectName: 'RiskManagement'
+    productiveBranch: 'main'
 
 # Stage configuration
 stages:
