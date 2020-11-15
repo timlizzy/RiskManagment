@@ -1,0 +1,12 @@
+# Project configuration
+general:
+
+# Stage configuration
+stages:
+  productionDeployment:
+    cfTargets:
+    - org: 'e2d5cad6trial'
+      space: 'dev'
+      appName: 'RiskManagement'
+      apiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
+      credentialsId: 'cfdeploy'
